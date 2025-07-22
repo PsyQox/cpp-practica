@@ -15,3 +15,6 @@ int main() {
     cout << "El numero factorial es: " << acumulador << endl;
     return 0;
 }
+
+// 5! = 5 x 4 x 3 x 2 x 1 = 120
+// n! = (n - 1) * (n - 2) 
