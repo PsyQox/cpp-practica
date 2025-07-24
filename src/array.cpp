@@ -22,3 +22,5 @@ int main(){
     // cin.getline(texto, 20) //puedes guardar con espacios
     return 0;
 }
+
+//tanto int como char aplica la misma teoria de declaracion de array con o sin numero definido de espacios
