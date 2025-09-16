@@ -9,7 +9,7 @@ int main(){
     cout << "Ingrese un numero: " << endl;
     cin >> numero;
 
-    raiz_cuadrada = sqrt(numero); //para sacar la raiz cuadrada
+    raiz_cuadrada = sqrt(numero); //para sacar la raiz cuadrada se usa sqrt
     cout << raiz_cuadrada << endl;
     return 0;
 }
