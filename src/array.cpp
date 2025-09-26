@@ -17,7 +17,7 @@ int main(){
         cin >> array[i];
     }
     
-    char texto[] = {'a', 'b', 'c', '\0'}; //elimina el 0 en la impresion
+    char texto[] = {'a', 'b', 'c', '\0'}; //elimina el 0 en la impresion, ya que por defecto deja un 0 al final del array, cuando se usa char
     cout << texto;
     // cin.getline(texto, 20) //puedes guardar con espacios
     return 0;
