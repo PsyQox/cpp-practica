@@ -7,7 +7,7 @@ int main(){
     // int edad [5] = {19,20,44,56,24}; //5 elementos del array van entre {}  en vez de [] como en js
     // for (int i = 0; i < 5; i++)
     // {
-    //     cout << edad[i] << endl;
+    //     cout << edad[i] << endl; 
     // }
 
     int array[8];
