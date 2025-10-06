@@ -15,12 +15,23 @@ int main(){
     // en las segundas llaves se insertan los valores de las filas y columnas, {{1 <-valor de la clumna 0}<-fila}
     int a [3][3] = {{1,2,3},{4,5,6},{7,8,9}};
 
-    cout << a[1][1] << endl;
+    cout << a[0][1] << endl;
 
+    //Algo adicional para hacer con la matriz es ver las posiciones
 
+    for (int i = 0; i < 3; i++)
+    {
+        // cout << "Posicion numbero " << i << " Valor: " << endl;
+        for (int j = 0; j < 3; j++)
+        {
+            cout << "Datos de la Matriz A[" << i << "][" << j << "] = " << a[i][j] << endl;
+        }
+    }
 
     // matris multidimencional - 3 dimenciones
     // int a [][][]
+
+    
 
 
     return 0;
