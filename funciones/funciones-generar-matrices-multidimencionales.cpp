@@ -13,23 +13,61 @@ int main(){
     // matris de 3x3 como en la parte de arriba
     // Las primeras llaves despues del igual, engloban el total de la matriz, internamente hay mas llaves
     // en las segundas llaves se insertan los valores de las filas y columnas, {{1 <-valor de la clumna 0}<-fila}
-    int a [3][3] = {{1,2,3},{4,5,6},{7,8,9}};
+    // int a [3][3] = {{1,2,3},{4,5,6},{7,8,9}};
 
-    cout << a[0][1] << endl;
+    // cout << a[0][1] << endl;
 
     //Algo adicional para hacer con la matriz es ver las posiciones
 
-    for (int i = 0; i < 3; i++)
-    {
-        // cout << "Posicion numbero " << i << " Valor: " << endl;
-        for (int j = 0; j < 3; j++)
-        {
-            cout << "Datos de la Matriz A[" << i << "][" << j << "] = " << a[i][j] << endl;
-        }
-    }
+    // for (int i = 0; i < 3; i++)
+    // {
+    //     // cout << "Posicion numbero " << i << " Valor: " << endl;
+    //     for (int j = 0; j < 3; j++)
+    //     {
+    //         cout << "Datos de la Matriz A[" << i << "][" << j << "] = " << a[i][j] << endl;
+    //     }
+    // }
+
+    ///////////////////////////////////////////////////////////////////////////////////////////////////////
 
     // matris multidimencional - 3 dimenciones
+    // Aqui ahora existen filas, columnas y matrices
     // int a [][][]
+    //              Matriz 1                //              Matriz 2
+    // [ a[0][0] ] [ a[0][1] ] [ a[0][2] ] // [ a[0][0] ] [ a[0][1] ] [ a[0][2] ] 
+    // [ a[1][0] ] [ a[1][1] ] [ a[1][2] ] // [ a[1][0] ] [ a[1][1] ] [ a[1][2] ]
+    // [ a[2][0] ] [ a[2][1] ] [ a[2][2] ] // [ a[2][0] ] [ a[2][1] ] [ a[2][2] ]
+    //      
+    // int b [matriz][filas][columnas]
+    // int b [M][x][y]
+    // int b [2][2][2]
+
+    //Representacion de una matriz multidimencional de 2 matrices
+    // [ a[0][0] ] [ a[0][1] ]  // [ a[0][0] ] [ a[0][1] ] 
+    // [ a[1][0] ] [ a[1][1] ]  // [ a[1][0] ] [ a[1][1] ] 
+    int b [2][2][2] = 
+    { //Matrices
+        { // filas
+            {
+                1,  // valor de la fila 0 de la columna 0
+                2  //valor de la fila 0 de la columna 1
+            },
+            {
+                3, // fila 1 columna 0
+                4 // fila 1 columna 1
+            }
+        },
+        { // corresponden a la matriz 2, filas de la matriz 2
+            {
+                5,
+                6
+            },
+            {
+                7,
+                8
+            }
+        }
+    };
 
     
 
