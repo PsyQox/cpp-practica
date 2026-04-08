@@ -16,7 +16,7 @@ int main () {
 
     switch (operador)
     {
-    case '+': //Como es de tipo caracter va con comillas simples
+    case '+': //Como es de tipo caracter va con comillas simples asd
         /* code */
         cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
         break;
