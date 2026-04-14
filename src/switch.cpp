@@ -12,7 +12,7 @@ int main () {
     cout << "Ingrese dos numeros: " << endl;
     cin >> num1 >> num2;
 
-    // la expresion de la contruccion switch debe ser de tipo entero o caracter;das
+    // la expresion de la contruccion switch debe ser de tipo entero o caracter;dasz
 
     switch (operador)
     {
