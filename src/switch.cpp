@@ -6,7 +6,7 @@ int main () {
     char operador;
     int num1, num2;
 
-    cout << "Ingrese un operador: \n + - * /" << endl;
+    cout << "Ingrese un operador: \n + - * /" << endl;asdas
     cin >> operador;
 
     cout << "Ingrese dos numeros: " << endl;
